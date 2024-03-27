@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="Style/Style.css">
+</head>
+<script>
+function Main(){
+
+    Idade = new Date().getFullYear() - 2006
+    document.getElementById("SobreMimTextCode").innerHTML = `Olá Me chamo Rafael<br>
+            tenho ${Idade} anos e gostaria de poder ajudá-lo(a) com seus projetos.
+            Utilizando minhas habilidades e conhecimentos<br>
+            posso oferecer soluções eficientes e criativas. 
+            Estou à disposição para discutir suas necessidades <br> e contribuir para o sucesso de seus projetos.</p>`
+}
+
+
+</script>
+<body onload="Main()">
+    
+    <section id="Main" role="Main">
+        <div id="Titulo">
+            <h1>Rafael</h1>
+            <h2>Developer Full-Stack</h2>
+        </div>
+    </section>
+    <section id="Sobre-Mim" role="Sobre Mim">
+        <br>
+        <div id="foto"></div>
+        <br>
+        <h1>Sobre Mim</h1>
+        <p id="SobreMimTextCode">Olá Me chamo Rafael<br>
+            tenho 18 anos e gostaria de poder ajudá-lo(a) com seus projetos.
+            Utilizando minhas habilidades e conhecimentos,<br>
+            posso oferecer soluções eficientes e criativas.
+            Estou à disposição para discutir suas necessidades e contribuir para o sucesso de seus projetos.</p>
+    </section>
+
+</body>
+</html>

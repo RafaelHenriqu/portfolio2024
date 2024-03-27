@@ -1,0 +1,58 @@
+$Primary:#0A192F;
+$Secundy:#CCD6F6;
+*{
+    color: $Secundy;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;   
+    
+}
+
+#Main{
+    background-image: url(../Img/Wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;  
+} 
+#Titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    h1:hover,h2:hover{
+        color: #b7c0dd;
+    }
+    h1{
+        font-size: 5ch;
+
+    }
+    
+    h2{
+        font-size: 3ch;   
+        font-family: 'Times New Roman', Times, serif;
+    }
+} 
+
+#Sobre-Mim{
+    &>h1{
+        font-size: 2.9ch;
+    }
+    box-shadow: 1px 1px 50px 25px $Primary; 
+    background-color: $Primary;
+    text-align: center;
+    color: #ffff;
+    font-size: 2.8ch;
+     
+    
+}
+#foto{
+    background-image: url(../Img/Perfil.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    width: 25vh;
+    height: 25vh;
+    margin: auto
+}
